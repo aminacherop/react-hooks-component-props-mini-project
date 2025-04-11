@@ -14,7 +14,7 @@ if(minutes<30){
 return(
       <article>
       <h3>{props.title}</h3>
-      <small>{articleDate}</small> <br/> <br/>
+      <small>{articleDate}</small> 
       <small>{emoji} {minutes} min read</small>
       <p>{props.preview}</p>
       </article>
